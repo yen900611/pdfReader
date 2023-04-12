@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Viewer</title>
-    <link rel="stylesheet"
-        href="pdfjs-dist/web/viewer.css"> //pdf查看器樣式
-    <link rel="stylesheet"
-        href="pdfjs-dist/web/locale/locale.properties"> //資源文件
+   <link rel="stylesheet"
+       href="pdfjs-dist/web/viewer.css">
+   <link rel="stylesheet"
+       href="pdfjs-dist/web/locale/locale.properties">
 
-  <script src="pdfjs-dist/build/pdf.js"></script> // 核心
-  <script src="pdfjs-dist/web/viewer.js"></script> // viewer.html是pdf查看器
+ <script src="pdfjs-dist/build/pdf.js"></script>
+ <script src="pdfjs-dist/web/viewer.js"></script>
 </head>
 <body>
-<div style="width: 80%;margin: auto;">
+<div id="pdf-container" style="width: 100%; height: 300mm; overflow: hidden;">
     <iframe src="pdfjs-dist/web/viewer.html?file=/pdf/公用ê藥方.pdf"
+            style="transform: scale(0.65); transform-origin: top center;"
             width="100%"
-            height="500px"
+            height="100%"
             frameborder="0"
             border="0"
-            cellspacing="0"></iframe>
+            cellspacing="0">
+    </iframe>
   </div>
 </body>
 </html>
