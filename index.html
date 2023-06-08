@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Phantom by HTML5 UP</title>
+		<title id="title"></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -34,11 +34,11 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">首頁</a></li>
-							<li><a href="generic.html">網站介紹</a></li>
-							<li><a href="generic.html">文獻介紹</a></li>
-							<li><a href="generic.html">醫學台語 FAQ</a></li>
-							<li><a href="elements.html">友站連結</a></li>
+                            <li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">About Us</a></li>
+							<li><a href="literature.html">Literatures</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="elements.html">Useful Links</a></li>
 						</ul>
 					</nav>
 
@@ -46,8 +46,8 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1>歡迎來到台語醫學館</h1>
-								<p>你可以在這裡找到豐富的醫學台語文獻資源，包括日治時期的醫學文獻。</p>
+								<h1 id="banner"></h1>
+								<p id="introduction"></p>
 							</header>
 							<section class="tiles">
 								<article class="style1">
@@ -57,7 +57,7 @@
 									<a href="內外科看護學.html">
 										<h2>內外科看護學</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>1917年戴仁壽醫師在台南基督長老教病院所出版。整本冊全部用台語白話字寫作，是台語醫學書籍中最傑出又是最全面性、最完整的一本。</p>
 										</div>
 									</a>
 								</article>
@@ -68,7 +68,7 @@
 									<a href="身體理.html">
 										<h2>身體理</h2>
 										<div class="content">
-											<p> 1896 Sin-thé-lí 身體理<br>是一部由白話字書寫而成，的西醫師教科書。多為傳教士在進行醫療傳道時使用。</p>
+											<p>1896 Sin-thé-lí 身體理<br>是一部由白話字書寫而成的西醫師教科書。多為傳教士在進行醫療傳道時使用。</p>
 										</div>
 									</a>
 								</article>
@@ -77,9 +77,9 @@
 										<img src="images/book.png" alt="" />
 									</span>
 									<a href="身體理的總論.html">
-										<h2>身體理的總論</h2>
+										<h2>身體理ê總論</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>1907 將《身體理》再版。</p>
 										</div>
 									</a>
 								</article>
@@ -88,9 +88,9 @@
 										<img src="images/book.png" alt="" />
 									</span>
 									<a href="公用的藥方.html">
-										<h2>公用的藥方</h2>
+										<h2>公用ê藥方</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>1922年由 James L. Maxwell, David Landsborough, Percy Cheal 共同著作，是台灣本土的第一本藥典及檢驗手冊。</p>
 										</div>
 									</a>
 								</article>
@@ -102,23 +102,12 @@
 					<footer id="footer">
 						<div class="inner">
 							<section>
-								<h2>關於我</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
+								<h2 id="aboutMe"></h2>
+								<figure>
+									<img src="images/profile.jpg" alt="Image Description" width="300" height="300">
+									<figcaption>aFei</figcaption>
+								</figure>
+								<p id="aboutMeContent"></p>
 							</section>
 						</div>
 					</footer>
@@ -129,6 +118,7 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/language_set.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
