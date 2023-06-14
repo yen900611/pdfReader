@@ -1,0 +1,25 @@
+{
+    "title":"Tâi-gí i-ha̍k koán",
+    "homepageBanner": "Hoan-gêng lâi-kàu Tâi-gí i-ha̍k koán",
+    "homepageIntro": "Lí ē-sái tī chia chhōe--tioh hong-hù ê i-hak Tâi-gí bûn-hiàn, bok-chêng ū sì pún jit-pún sî-tāi ê i-hak bûn-hiàn.",
+    "aboutMe": "Koan-î góa",
+    "aboutMeContent":"Sui-jiân góa ê Tâi-gí iû-oân bô siaⁿ liàn-tńg, iā-sī hi-bōng ē-sái ūi Tâi-gí kòng-hiàn, in-ūi góa sī Tâi-oân gín-ná.",
+    "literature": [
+        {
+          "name": "Lāi-gōa-kho Khàn-hō͘-ha̍k",
+          "intro": "1917 nî 戴仁壽醫師在台南基督長老教病院所出版。整本冊全部用台語白話字寫作，是台語醫學書籍中最傑出又是最全面性、最完整的一本。"
+        },
+        {
+          "name": "Sin-thé-lí",
+          "intro": "1896 Sin-thé-lí 身體理<br>是一部由白話字書寫而成的西醫師教科書。多為傳教士在進行醫療傳道時使用。"
+        },
+        {
+          "name": "Sin-thé-lí ê Chóng-lūn",
+          "intro": "1907 將《身體理》再版。"
+        },
+        {
+          "name": "Kong-iōng ê Io̍h-hng",
+          "intro": "1922年由 James L. Maxwell, David Landsborough, Percy Cheal 共同著作，是台灣本土的第一本藥典及檢驗手冊。"
+        }
+      ]
+}
